@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+
+
+
+.container {
+    background: #ff0000;
+}
+
+
+/* !Cabeçalho Start */
+.Header {
+    display: flex;
+    justify-content: space-around;
+    gap: 70em;
+    height: 96px;
+    align-items: center;
+    background: #000000;
+}
+
+.sirbarber {
+    display: flex;
+    font-size: 24px;
+    color: #fff;
+}
+
+.sir {
+    font-weight: 400;
+}
+
+.barber {
+    font-weight: 700;
+}
+
+.agendar {
+    width: 194px;
+    height: 48px;
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border: solid 2px #ffffff;
+}
+
+.agendar:hover {
+    color: #D9D9D9;
+    cursor: pointer;
+}
+
+/* !Cabeçalho End */
+
+
+/* ?------------------- */
+
+
+/* !Main Start */
+
+.Main {}
+
+.parte-01 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+    padding: 3em 0 0 0;
+}
+
+.titulo {
+    width: 9em;
+    color: #fff;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.bio {
+    color: #F5F3F4;
+    font-weight: 400;
+    font-size: 20px;
+    width: 21em;
+    margin-top: 2em;
+}
+
+.btn-agendar {
+    width: 274px;
+    height: 64px;
+    margin-top: 2em;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    background: #BA181B;
+}
+
+.btn-agendar:hover {
+    background: #941B1D;
+    cursor: pointer;
+}
+
+.parte-02 {
+    display: flex;
+    flex-direction: column;
+    background: #D6D4E2;
+}
+
+.subtitulo-parte-02 {
+    color: #E5383B;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 3em 0 0.4em 20em;
+}
+
+.titulo-parte-02 {
+    color: #0B090A;
+    font-weight: 700;
+    font-size: 44px;
+    padding: 0.5em 0 1em 7.2em;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    padding: 0 0 1em 0;
+}
+
+.card {
+    background: #F5F3F4;
+    border: 2px solid #D3D3D3;
+    padding: 0 0 2.5em 0;
+}
+
+.card-bio {
+    padding: 2em 0 0 2em;
+    width: 310px;
+}
+
+.parte-03 {
+    background: #F5F3F4;
+}
+
+.endereco {
+    padding: 0 0 2em 20em;
+}
+
+.localizacao {
+    color: #161A1D;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.location {
+    color: #E5383B;
+}
+
+.maps {
+    width: 118.9em;
+    height: 400px;
+}
+
+/* !Main End */
+
+/* !Footer Start */
+
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20em 0 20em;
+    background: #161A1D;
+    padding: 2em;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+    color: #FFFAF1;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.icons {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* !Footer End */
+
+/* ?------------------- */
